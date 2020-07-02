@@ -1,7 +1,8 @@
 # Data stucture
 
-- Each sites must have a unique `siteid`
-- Multiple sites can have the same `accountid`
-- `multisiteid` is optional
-- `multisiteid` must be unique across `accountid`
-- Multiple sites can have the same `multisiteid`
+- `meta` is optional and can be used to describe the data.
+- Each sites must have a unique `siteId`
+- Multiple sites can have the same `accountId`
+- `multiSiteId` is optional
+- `multiSiteId` must be unique across `accountId`
+- Multiple sites can have the same `multiSiteId`

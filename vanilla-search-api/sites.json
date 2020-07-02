@@ -1,35 +1,35 @@
 [
     {
         "meta": "Standalone Site",
-        "accountid": "1337",
-        "siteid": "1337"
+        "accountId": "1337",
+        "siteId": "1337"
     },
     {
         "meta": "Account 1 - Site 1",
-        "accountid": "1",
-        "siteid": "1"
+        "accountId": "1",
+        "siteId": "1"
     },
     {
         "meta": "Account 1 - Site 2",
-        "accountid": "1",
-        "siteid": "2"
+        "accountId": "1",
+        "siteId": "2"
     },
     {
         "meta": "HubNode - Hub Site",
-        "accountid": "2",
-        "siteid": "10",
-        "multisiteid": "1"
+        "accountId": "2",
+        "siteId": "10",
+        "multiSiteId": "1"
     },
     {
         "meta": "HubNode - Node 1",
-        "accountid": "2",
-        "siteid": "11",
-        "multisiteid": "1"
+        "accountId": "2",
+        "siteId": "11",
+        "multiSiteId": "1"
     },
     {
         "meta": "HubNode - Node 2",
-        "accountid": "2",
-        "siteid": "12",
-        "multisiteid": "1"
+        "accountId": "2",
+        "siteId": "12",
+        "multiSiteId": "1"
     }
 ]
