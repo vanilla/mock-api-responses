@@ -35,7 +35,6 @@
     {
         "meta": "HubNode 1 - Standalone",
         "accountId": "2",
-        "siteId": "20",
-        "multiSiteId": "1"
+        "siteId": "20"
     }
 ]
