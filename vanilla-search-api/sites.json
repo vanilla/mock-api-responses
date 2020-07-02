@@ -15,21 +15,27 @@
         "siteId": "2"
     },
     {
-        "meta": "HubNode - Hub Site",
+        "meta": "HubNode 1 - Hub Site",
         "accountId": "2",
         "siteId": "10",
         "multiSiteId": "1"
     },
     {
-        "meta": "HubNode - Node 1",
+        "meta": "HubNode 1 - Node 1",
         "accountId": "2",
         "siteId": "11",
         "multiSiteId": "1"
     },
     {
-        "meta": "HubNode - Node 2",
+        "meta": "HubNode 1 - Node 2",
         "accountId": "2",
         "siteId": "12",
+        "multiSiteId": "1"
+    },
+    {
+        "meta": "HubNode 1 - Standalone",
+        "accountId": "2",
+        "siteId": "20",
         "multiSiteId": "1"
     }
 ]
