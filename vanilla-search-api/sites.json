@@ -36,5 +36,10 @@
         "meta": "HubNode 1 - Standalone",
         "accountId": "2",
         "siteId": "20"
+    },
+    {
+        "meta": "DaazKu's test site",
+        "accountId": "31337",
+        "siteId": "31337"
     }
 ]
