@@ -41,5 +41,25 @@
         "meta": "DaazKu's test site",
         "accountId": "31337",
         "siteId": "31337"
+    },
+    {
+        "meta": "Kim's test site Q-stack",
+        "accountId": "100",
+        "siteId": "100"
+    },
+    {
+        "meta": "Kim's test site dev2",
+        "accountId": "101",
+        "siteId": "101"
+    },
+    {
+        "meta": "Kim's test site dev",
+        "accountId": "102",
+        "siteId": "102"
+    },
+    {
+        "meta": "Vanilla unit test",
+        "accountId": "110",
+        "siteId": "110"
     }
 ]
