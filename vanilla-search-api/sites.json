@@ -71,5 +71,10 @@
         "meta": "Adam Dev Local",
         "accountId": "3000",
         "siteId": "3000"
+    },
+    {
+        "meta": "Stéphane Dev Local",
+        "accountId": "4000",
+        "siteId": "4000"
     }
 ]
