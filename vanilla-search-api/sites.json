@@ -78,6 +78,24 @@
         "siteId": "3999"
     },
     {
+        "meta": "Adam Local Hub",
+        "accountId": 3000,
+        "siteId": "3100",
+        "multisiteId": "3100"
+    },
+    {
+        "meta": "Adam Local Node 1",
+        "accountId": 3000,
+        "siteId": "3101",
+        "multisiteId": "3100"
+    },
+    {
+        "meta": "Adam Local Node 2",
+        "accountId": 3000,
+        "siteId": "3102",
+        "multisiteId": "3100"
+    },
+    {
         "meta": "Stéphane Dev Local",
         "accountId": "4000",
         "siteId": "4000"
