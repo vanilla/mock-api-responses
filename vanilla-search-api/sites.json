@@ -80,19 +80,22 @@
     {
         "meta": "Adam Local Hub",
         "accountId": 3000,
-        "siteId": "3100"
+        "siteId": "3100",
+        "multiSiteId": "3100"
     },
     {
         "meta": "Adam Local Node 1",
         "accountId": 3000,
-        "siteId": "3101"
+        "siteId": "3101",
+        "multiSiteId": "3100"
     },
     {
         "meta": "Adam Local Node 2",
         "accountId": 3000,
-        "siteId": "3102"
+        "siteId": "3102",
+        "multiSiteId": "3100"
     },
-        {
+    {
         "meta": "Adam Local Hub Repro",
         "accountId": 3200,
         "siteId": "3200",
