@@ -81,19 +81,34 @@
         "meta": "Adam Local Hub",
         "accountId": 3000,
         "siteId": "3100",
-        "multisiteId": "3100"
     },
     {
         "meta": "Adam Local Node 1",
         "accountId": 3000,
         "siteId": "3101",
-        "multisiteId": "3100"
     },
     {
         "meta": "Adam Local Node 2",
         "accountId": 3000,
         "siteId": "3102",
-        "multisiteId": "3100"
+    },
+        {
+        "meta": "Adam Local Hub Repro",
+        "accountId": 3200,
+        "siteId": "3100",
+        "multiSiteId": "3200"
+    },
+    {
+        "meta": "Adam Local Node 1 Repro",
+        "accountId": 3200,
+        "siteId": "3201",
+        "multiSiteId": "3200"
+    },
+    {
+        "meta": "Adam Local Node 2 Repro",
+        "accountId": 3200,
+        "siteId": "3202",
+        "multiSiteId": "3200"
     },
     {
         "meta": "Stéphane Dev Local",
