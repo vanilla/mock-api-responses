@@ -134,6 +134,24 @@
         "siteId": "1203685"
     },
     {
+        "meta": "Chris Hub",
+        "accountId": "12000",
+        "siteId": "12000",
+        "multiSiteId": "12000"
+    },
+    {
+        "meta": "Chris Node 1",
+        "accountId": "12000",
+        "siteId": "12001",
+        "multiSiteId": "12000"
+    },
+    {
+        "meta": "Chris Node 2",
+        "accountId": "12000",
+        "siteId": "12001",
+        "multiSiteId": "12000"
+    },
+    {
         "meta": "CI - 0",
         "accountId": 13310000,
         "siteId": 13310000
