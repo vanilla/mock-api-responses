@@ -5,6 +5,11 @@
  * @license gpl-2.0-only
  */
 
+function errorHandler($severity, $message, $file, $line) {
+    throw new ErrorException($message, 0, $severity, $file, $line);
+}
+set_error_handler("errorHandler");
+
 $validator = new Validator();
 $validator->run();
 
