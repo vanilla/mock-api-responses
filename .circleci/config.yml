@@ -4,7 +4,8 @@ version: 2.1
 
 jobs:
   validate_sites:
-    executor: circleci/php:7.4
+    docker:
+      - image: circleci/php:7.4
     steps:
       - checkout
       - run: php ./.circleci/validateSites.php
