@@ -22,7 +22,7 @@ class Validator {
     private $errors = [];
 
     public function run() {
-        $sitesFilePath = realpath(__FILE__ . '/../vanilla-search-api/sites.json');
+        $sitesFilePath = realpath(__DIR__ . '/../vanilla-search-api/sites.json');
         $textContent = file_get_contents($sitesFilePath);
         $sites = json_decode($textContent, true);
         $this->sites = $sites;
