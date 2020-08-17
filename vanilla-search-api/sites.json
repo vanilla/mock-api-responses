@@ -98,7 +98,7 @@
     {
         "meta": "Adam Local Hub",
         "accountId": 3000,
-        "siteId": "3902",
+        "siteId": "3100",
         "multiSiteId": "3100"
     },
     {
@@ -118,11 +118,6 @@
         "accountId": 3200,
         "siteId": "3200",
         "multiSiteId": "3200"
-    },
-    {
-        "meta": "Adam Test Local",
-        "accountId": "3200",
-        "siteId": "3299"
     },
     {
         "meta": "Adam Local Node 1 Repro",
