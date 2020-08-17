@@ -47,7 +47,7 @@ class Validator {
 
     private function ensureVarExists(array $site, string $key) {
         if (!isset($site[$key])) {
-            $this->errors[] = "Encountered site without a $key: \n" . json_encode($site, JSON_PRETTY_PRINT);
+            $this->errors[] = "\nEncountered site without a $key: \n" . json_encode($site, JSON_PRETTY_PRINT);
         }
     }
 
@@ -62,7 +62,7 @@ class Validator {
                 }
             }
             if ($foundCount > 1) {
-                $this->errors[] = "Encountered site duplicate value for siteKey $key in: \n" . json_encode($site, JSON_PRETTY_PRINT);
+                $this->errors[] = "\nEncountered site duplicate value for siteKey $key in: \n" . json_encode($site, JSON_PRETTY_PRINT);
             }
         }
     }
@@ -72,7 +72,7 @@ class Validator {
             $val = $site[$key];
             $validated = filter_var($val, FILTER_VALIDATE_INT);
             if ($validated === false) {
-                $this->errors[] = "Expected integer value for key $key in site: \n" . json_encode($site, JSON_PRETTY_PRINT);
+                $this->errors[] = "\nExpected integer value for key $key in site: \n" . json_encode($site, JSON_PRETTY_PRINT);
             }
         }
     }
