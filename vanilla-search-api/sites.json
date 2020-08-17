@@ -78,9 +78,27 @@
         "siteId": "3999"
     },
     {
+        "meta": "Adam Test Hub",
+        "accountId": 3900,
+        "siteId": "3900",
+        "multiSiteId": "3900"
+    },
+    {
+        "meta": "Adam Test Node 1",
+        "accountId": 3900,
+        "siteId": "3901",
+        "multiSiteId": "3900"
+    },
+    {
+        "meta": "Adam Test Node 2",
+        "accountId": 3900,
+        "siteId": "3102",
+        "multiSiteId": "3900"
+    },
+    {
         "meta": "Adam Local Hub",
         "accountId": 3000,
-        "siteId": "3100",
+        "siteId": "3902",
         "multiSiteId": "3100"
     },
     {
