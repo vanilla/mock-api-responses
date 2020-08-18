@@ -36,8 +36,8 @@ class SitesModifier {
             $result[] = [
                 'meta' => 'CI Hub - ' . $i,
                 'siteId' => $siteAccountID,
-                'accountID' => $siteAccountID,
-                'multisiteId' => $siteAccountID,
+                'accountId' => $siteAccountID,
+                'multiSiteId' => $siteAccountID,
             ];
 
             // Add the 2 nodes.
@@ -45,14 +45,14 @@ class SitesModifier {
             $result[] = [
                 'meta' => 'CI Node - ' . $i . ' - 1',
                 'siteId' => $siteAccountID * 10 + 1,
-                'accountID' => $siteAccountID,
-                'multisiteId' => $siteAccountID,
+                'accountId' => $siteAccountID,
+                'multiSiteId' => $siteAccountID,
             ];
             $result[] = [
                 'meta' => 'CI Node - ' . $i . ' - 2',
                 'siteId' => $siteAccountID * 10 + 2,
-                'accountID' => $siteAccountID,
-                'multisiteId' => $siteAccountID,
+                'accountId' => $siteAccountID,
+                'multiSiteId' => $siteAccountID,
             ];
         }
 
