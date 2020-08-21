@@ -1,0 +1,10 @@
+{
+    "name": "vanillaforums/mock-api-responses",
+    "description": "Mock API responses for vanilla forum APIs and utilities for generating them.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Vanilla\\MockApiResponses\\SearchApi\\": "vanilla-search-api/src"
+        }
+    }
+}
