@@ -10,7 +10,7 @@ jobs:
       - checkout
       - run: |
             composer install
-            ./bin/validateSites.php
+            ./bin/validate-sites
 # Orchestrate or schedule a set of jobs
 workflows:
   commit:
