@@ -1,0 +1,18 @@
+#!/usr/bin/env php
+<?php
+/**
+ * @author Adam Charron <adam.c@vanillaforums.com>
+ * @copyright 2009-2020 Vanilla Forums Inc.
+ * @license Proprietary
+ */
+
+use Vanilla\MockApiResponses\SearchApi\Utils\ErrorHandler;
+use Vanilla\MockApiResponses\SearchApi\Utils\SiteModifier;
+
+// Autoload
+require __DIR__ . '/../vendor/autoload.php';
+ErrorHandler::apply();
+
+// Run
+$modifier = new SiteModifier();
+$modifier->rebuild();
