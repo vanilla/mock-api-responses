@@ -8,7 +8,9 @@ jobs:
       - image: circleci/php:7.4
     steps:
       - checkout
-      - run: ./bin/validateSites.php
+      - run: |
+            composer install
+            ./bin/validateSites.php
 # Orchestrate or schedule a set of jobs
 workflows:
   commit:
