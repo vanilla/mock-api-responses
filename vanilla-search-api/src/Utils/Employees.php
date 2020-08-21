@@ -23,6 +23,10 @@ final class Employees {
         3000 => 'AdamC',
         4000 => 'StéphaneL',
         5000 => 'ToddB',
+        6000 => 'DominicL',
+        7000 => 'RichardF',
+        8000 => 'DaniM',
+        9000 => 'IsisG',
         12000 => 'ChrisC',
     ];
 }
