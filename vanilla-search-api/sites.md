@@ -5,6 +5,20 @@
 - `multiSiteId` is optional. It must be unique across different `accountId`. It can be the same accross multiple `siteId`. This is the "hub" id.
 - `meta` is optional and can be used to describe what the record is used for. 
 
+## How to add your own
+
+1. Go to `vanilla-seach-api/src/Utils/Employees.php`
+2. Add an entry for yourself. Your ID must be a multiple of 1000.
+3. Run the following
+
+    ```sh
+    cd /path/to/mock-api/responses
+    composer install
+    ./bin/build-sites
+    ```
+
+4. Make a PR to this repo with the resulting changes.
+
 ## Notes on uniqueness
 
 - All `siteId`s must be globally unique. Make sure you are not re-using an existing one.
