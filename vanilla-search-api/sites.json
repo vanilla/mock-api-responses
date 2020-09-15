@@ -73,6 +73,16 @@
         "siteId": "1203685"
     },
     {
+        "meta": "StéphaneL Dev Local",
+        "accountId": "4100",
+        "siteId": "420001"
+    },
+    {
+        "meta": "StéphaneL Test Local",
+        "accountId": "4100",
+        "siteId": "420002"
+    },
+    {
         "meta": "Employee AlexK - Hub",
         "siteId": 1100,
         "accountId": 1100,
