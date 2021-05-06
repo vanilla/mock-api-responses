@@ -7,7 +7,9 @@
  */
 
 use Vanilla\MockApiResponses\SearchApi\Utils\ErrorHandler;
+use Vanilla\MockApiResponses\SearchApi\Utils\Paths;
 use Vanilla\MockApiResponses\SearchApi\Utils\SiteValidator;
+use Vanilla\MockApiResponses\SearchApi\Utils\SiteModifier;
 
 // Autoload
 require __DIR__ . '/../vendor/autoload.php';
@@ -15,3 +17,14 @@ ErrorHandler::apply();
 
 $validator = new SiteValidator();
 $validator->validateJson();
+
+$existing = file_get_contents(Paths::sitesJson());
+
+$modifier = new SiteModifier();
+$modifier->rebuild();
+
+$after = file_get_contents(Paths::sitesJson());
+
+if ($after !== $existing) {
+    throw new Exception('sites.json did not rebuild cleanly. Did you forget to add your entries to `Employees.php`?');
+}
