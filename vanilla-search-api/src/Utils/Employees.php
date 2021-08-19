@@ -35,5 +35,6 @@ final class Employees {
         16000 => 'RaphaelB',
         17000 => 'StephanR',
         18000 => 'HovhannesH',
+        19000 => 'DanR',
     ];
 }
