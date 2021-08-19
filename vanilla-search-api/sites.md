@@ -1,4 +1,4 @@
-# Data stucture
+# Data structure
 
 - `siteId` is requires and it must be unique across all records. 
 - `accountId` is required. Multiple sites can have the same one. 
@@ -7,17 +7,18 @@
 
 ## How to add your own
 
-1. Go to `vanilla-seach-api/src/Utils/Employees.php`
-2. Add an entry for yourself. Your ID must be a multiple of 1000.
-3. Run the following
+1. Create a new git branch within this repo based on `master`
+2. Go to `vanilla-search-api/src/Utils/Employees.php`
+3. Add an entry for yourself. Your ID must be a multiple of 1000.
+4. Run the following
 
     ```sh
-    cd /path/to/mock-api/responses
+    cd /path/to/mock-api-responses
     composer install
     ./bin/build-sites
     ```
 
-4. Make a PR to this repo with the resulting changes.
+5. Make a PR to this repo with the resulting changes.
 
 ## Notes on uniqueness
 
