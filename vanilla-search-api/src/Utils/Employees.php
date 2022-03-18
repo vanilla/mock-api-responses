@@ -38,6 +38,8 @@ final class Employees {
         19000 => 'DanR',
         20000 => 'GaryP',
         21000 => 'PavelG',
-	22000 => 'DavidB',
+    	22000 => 'DavidB',
+        23000 => 'OlivierLC',
+        24000 => 'mgriffhl'
     ];
 }
