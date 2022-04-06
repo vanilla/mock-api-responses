@@ -40,6 +40,7 @@ final class Employees {
         21000 => 'PavelG',
     	22000 => 'DavidB',
         23000 => 'OlivierLC',
-        24000 => 'mgriffhl'
+        24000 => 'mgriffhl',
+        25000 => 'AndrewK'
     ];
 }
