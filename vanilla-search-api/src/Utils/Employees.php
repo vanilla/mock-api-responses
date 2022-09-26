@@ -43,6 +43,7 @@ final class Employees {
         24000 => 'mgriffhl',
         25000 => 'AndrewK',
         26000 => 'SoorajF',
-        27000 => 'JennyS'
+        27000 => 'JennyS',
+        28000 => 'TaylorC'
     ];
 }
